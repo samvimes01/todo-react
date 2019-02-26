@@ -25,8 +25,36 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 24px;
   color: #000;
 }
 
+.todo__list {
+  list-style: none;
+  margin: 0px;
+  padding: 5px;
+  text-align: left;
+}
+
+.todo__archive {
+  text-decoration: underline;
+  color: blue;
+}
+
+.todo__item-crossed {
+  text-decoration: line-through;
+}
+
+.todo__showroom h3 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 10px 0px;
+}
+
+.todo__showroom p {
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+}
